@@ -1,0 +1,103 @@
+html{
+margin: 0;
+padding: 0;
+}
+ 
+* {
+margin: 0;
+padding: 0;
+    
+}
+body {
+    background-color: black;
+}
+header {
+    background-color: yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+#head-links > li{
+    display: inline;
+    list-style: none;
+    margin-right: 5%;
+    vertical-align: middle;
+    text-decoration: none;
+}
+li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-right: 10px;
+}
+li > a:hover{
+    border-bottom: black solid 2px;
+    
+    
+}
+#logo {
+    width: 150px;
+    height: auto;
+    padding-right: 30%;
+    padding-left: 5%;
+}
+@media (max-width: 1150px) {
+    #logo {
+        padding-right: 20%;
+    }
+}
+@media (max-width: 800px) {
+    #logo {
+        padding-right: 2%;
+    }
+}
+@media (max-width: 540px) {
+    li > a {
+        display: block;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+#wrap-ourcomitent {
+    background-image: url(assets/home-bkg-1-1.jpg);
+    display: grid;
+    grid-template-columns: 70%;
+    
+    
+}
+#our-comitent {
+    background-color: yellow;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+#o-c {
+    font-size: 50px;
+}
+#our-comitent h4{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+@media (max-width: 780px) {
+    #our-comitent {
+        padding-left: 0px;
+    }
+    #o-c {
+        font-size: 20px;
+    }
+    #our-comitent h4{
+        font-size: 10px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+}
+@media(max-width:330px){
+    #wrap-ourcomitent {
+        grid-template-columns: 100%;
+    }
+}
