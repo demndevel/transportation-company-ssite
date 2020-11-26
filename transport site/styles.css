@@ -10,6 +10,7 @@ padding: 0;
 }
 body {
     background-color: black;
+    font-family: Lato, sans-serif;
 }
 header {
     background-color: yellow;
@@ -140,5 +141,37 @@ li > a:hover{
     padding-top: 40px;
     padding-left: 30px;
     color: white;
-    Font-size: 40px;
+    Font-size: 40px; 
+}
+.wrap-making-transportation {
+    color: white;
+    padding-left: 40%;
+    padding-right: 10%;
+}
+.wrap-making-transportation #wmt-frst{
+    padding-top: 55px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.wrap-making-transportation #wmt-scnd{
+    padding-bottom: 55px;
+}
+.making-transportation {
+    background-image: url(assets/home-bkg-2-1.jpg);
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+.why {
+    background-color: #ebebeb;
+}
+#w-1 {
+    color: #242436;
+    font-weight: 900;
+    font-size: 50px;
+}
+#w-2 {
+    color: yellow;
+}
+#w-3 {
+    
 }
