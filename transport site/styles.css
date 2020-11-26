@@ -101,3 +101,44 @@ li > a:hover{
         grid-template-columns: 100%;
     }
 }
+.wrap-keys-to-success {
+    background-color: darkgoldenrod;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.h1-keys {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: Lato, sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+.paragraph-keys{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+    font-family: Lato, sans-serif;
+    padding-left: 30px;
+}
+.second-paragraph-keys{
+    padding-bottom: 40px;
+    color: white;
+    font-family: Lato, sans-serif;
+    padding-left: 30px;
+}
+.left-keys-wrap {
+    background-color: #242426;
+}
+.right-keys-wrap {
+    font-family: Lato, sans-serif;
+    background-color: #3a3a3c;
+}
+.right-keys-wrap p{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+    color: white;
+    Font-size: 40px;
+}
